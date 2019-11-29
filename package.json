@@ -1,0 +1,41 @@
+{
+    "name": "@arteixo/node-toolkit",
+    "version": "0.1.0-snapshot",
+    "description": "Node.js toolkit",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint -c .eslintrc.yml src/**",
+        "build": "babel src --out-dir dist",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arteixo/node-toolkit.git"
+    },
+    "keywords": [
+        "node",
+        "middleware",
+        "tools",
+        "toolkit",
+        "js",
+        "javascript",
+        "node.js"
+    ],
+    "contributors": [
+        "Alejandro Martin <alejandromav@outlook.com>"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arteixo/node-toolkit/issues"
+    },
+    "homepage": "https://github.com/arteixo/node-toolkit#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.7.4",
+        "@babel/core": "^7.7.4",
+        "@babel/node": "^7.7.4",
+        "@babel/preset-env": "^7.7.4",
+        "babel-preset-minify": "^0.5.1",
+        "eslint": "^6.7.1"
+    }
+}
