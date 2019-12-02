@@ -1,0 +1,16 @@
+{
+  
+  "0": {
+    "title": "Index",
+    "content": "Home . Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. . Install . npm i @arteixo/node-tools . Usage . const { someMiddleware } = require(&#39;@arteixo/node-tools&#39;); .",
+    "url": "http://localhost:4000/node-toolkit/",
+    "relUrl": "/"
+  }
+  ,"1": {
+    "title": "Test",
+    "content": "Test . const a = async () =&gt; 1; .",
+    "url": "http://localhost:4000/node-toolkit/test.html",
+    "relUrl": "/test.html"
+  }
+  
+}
